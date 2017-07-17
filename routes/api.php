@@ -17,3 +17,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/{service}', 'ApiController@index');
+
+Route::get('/{service}/poiMasCercano/{x}/{y}', 'ApiController@poiMasCercano');
+

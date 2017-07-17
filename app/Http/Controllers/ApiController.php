@@ -24,7 +24,27 @@ class ApiController extends Controller
  				['service'=> 'circuito historico', 'poi'=>'Catedral BS AS', 'latX'=>'-34.607569', 'latY'=>'-58.373257'],
  				]);
 
-}
+	}
+
+
+
+	private function distanceCalculation($point1_lat, $point1_long, $point2_lat, $point2_long, $unit = 'km', $decimals = 2) {
+	// Cálculo de la distancia en grados
+	$degrees = rad2deg(acos((sin(deg2rad($point1_lat))*sin(deg2rad($point2_lat))) + (cos(deg2rad($point1_lat))*cos(deg2rad($point2_lat))*cos(deg2rad($point1_long-$point2_long)))));
+ 
+	// Conversión de la distancia en grados a la unidad escogida (kilómetros, millas o millas naúticas)
+	switch($unit) {
+		case 'km':
+			$distance = $degrees * 111.13384; // 1 grado = 111.13384 km, basándose en el diametro promedio de la Tierra (12.735 km)
+			break;
+		case 'mi':
+			$distance = $degrees * 69.05482; // 1 grado = 69.05482 millas, basándose en el diametro promedio de la Tierra (7.913,1 millas)
+			break;
+		case 'nmi':
+			$distance =  $degrees * 59.97662; // 1 grado = 59.97662 millas naúticas, basándose en el diametro promedio de la Tierra (6,876.3 millas naúticas)
+	}
+	return round($distance, $decimals);
+	}
 
 
  	function index($service, Request $request) {
@@ -34,11 +54,35 @@ class ApiController extends Controller
  		if (count($result))
  			return ["res"=>true,"pois"=>$result];
  		return ["res"=>false,"msg"=>"El servicio no existe"];
- 			//dd($this->services->search());
- 		//$this->services->search(function($item,$key) use ($service)	 {
- 			//dd($item['service']);
  	
 
+
+ 	}
+
+
+
+ 	function poiMasCercano($service, $latX, $latY, Request $request) {
+
+ 			
+
+ 		$result = $this->services->all();
+
+ 		$min = 9999999;
+
+ 		$poiMin = [];
+
+ 		foreach ($result as $poi) {
+
+ 			$d = $this->distanceCalculation($latX, $latY, $poi['latX'], $poi['latY']);
+ 			
+ 			if ($d<=$min)	{
+
+ 				$min = $d;
+ 				$poiMin = $poi;
+ 			}
+ 		}
+
+		return $poiMin;	
 
  	}
 }
