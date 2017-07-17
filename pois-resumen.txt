@@ -1,0 +1,31 @@
+Algoritmo:
+http://assemblysys.com/es/calculo-de-la-distancia-en-funcion-de-la-latitud-y-longitud-en-php/
+ 
+Página donde se ingresan ubicaciones de google map y  devuelve coordenadas (Latitud y Longitud)
+http://www.coordenadas-gps.com/
+ 
+Circuito Historico
+El cabildo
+Bolívar 65, 1066 CABA, Argentina
+Latitud: -34.608739 | Longitud: -58.373786
+ 
+San Francisco
+Basilica de San Francisco, Adolfo Alsina 380, C1087AAD CABA, Argentina
+Latitud: -34.610469 | Longitud: -58.371784
+ 
+Catedral Baires
+Calle Rivadavia s/n, 1004 CABA, Argentina
+Latitud: -34.607569 | Longitud: -58.373257
+ 
+Pizzerias
+El  palacio de la pizza
+Buenos Aires, Argentina
+Latitud: -34.603325 | Longitud: -58.377335
+ 
+El cuartito
+Talcahuano 937, C1013AAS CABA, Argentina
+Latitud: -34.597837 | Longitud: -58.385456
+ 
+Las Cuartetas, Av. Corrientes 838, 1108 CABA
+Av. Corrientes 838, 1108 CABA, Argentina
+Latitud: -34.60375 | Longitud: -58.378575
