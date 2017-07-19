@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Collection;
@@ -16,13 +17,25 @@ class ApiController extends Controller
 	public function __construct() {
  
  		$this->services = collect([
- 				['service'=> 'pizzerias', 'poi'=>'Las cuartetas', 'latX'=>'-34.60375', 'latY'=>'-58.378575'],
- 				['service'=> 'pizzerias', 'poi'=>'El palacio de la pizza', 'latX'=>'-34.603325', 'latY'=>'-58.377335'],
- 				['service'=> 'pizzerias', 'poi'=>'El cuartito', 'latX'=>'-34.597837', 'latY'=>'-58.385456'],
- 				['service'=> 'circuito historico', 'poi'=>'El cabildo', 'latX'=>'-34.608739', 'latY'=>'-58.373786'],
- 				['service'=> 'circuito historico', 'poi'=>'San francisco', 'latX'=>'-34.610469', 'latY'=>'-58.371784'],
- 				['service'=> 'circuito historico', 'poi'=>'Catedral BS AS', 'latX'=>'-34.607569', 'latY'=>'-58.373257'],
- 				]);
+ 			'pizzerias'=>	['service'=> 'pizzerias',
+                    'listPois'=>[
+                        ['poi'=>'Las cuartetas', 'latX'=>'-34.60375', 'latY'=>'-58.378575'],
+ 				        ['poi'=>'El palacio de la pizza', 'latX'=>'-34.603325', 'latY'=>'-58.377335'],
+ 				        ['poi'=>'El cuartito', 'latX'=>'-34.597837', 'latY'=>'-58.385456']
+                    ]],
+ 			'circuito-historico'=>	['service'=> 'circuito-historico',
+                    'listPois'=>[
+                        ['poi'=>'El cabildo', 'latX'=>'-34.608739', 'latY'=>'-58.373786'],
+ 				        ['poi'=>'San francisco', 'latX'=>'-34.610469', 'latY'=>'-58.371784'],
+ 				        ['poi'=>'Catedral BS AS', 'latX'=>'-34.607569', 'latY'=>'-58.373257']
+                        ]
+]                    ,
+            'cablevision' => ['service'=> 'cablevision',
+                'listPois'=>[
+                    ]
+                    ]
+            ]
+        );
 
 	}
 
@@ -49,10 +62,10 @@ class ApiController extends Controller
 
  	function index($service, Request $request) {
 
-
  		$result = $this->services->where('service',$service)->all();
+
  		if (count($result))
- 			return ["res"=>true,"pois"=>$result];
+ 			return ["res"=>true,"items"=>$result];
  		return ["res"=>false,"msg"=>"El servicio no existe"];
  	
 
@@ -63,15 +76,19 @@ class ApiController extends Controller
 
  	function poiMasCercano($service, $latX, $latY, Request $request) {
 
- 			
 
- 		$result = $this->services->all();
+        if (!is_numeric($latX) or !is_numeric($latY) ){
+            return ['res'=> false, 'msg'=>'Parametros invalidos'];
+        }
+        $result = $this->services->where('service',$service)->all();
+        if (count($result)){
+
+
 
  		$min = 9999999;
 
  		$poiMin = [];
-
- 		foreach ($result as $poi) {
+ 		foreach ($result[$service]['listPois'] as $poi) {
 
  			$d = $this->distanceCalculation($latX, $latY, $poi['latX'], $poi['latY']);
  			
@@ -84,5 +101,7 @@ class ApiController extends Controller
 
 		return $poiMin;	
 
- 	}
+ 	    }
+        return ["res"=>false,"msg"=>"El servicio no existe"];
+	}
 }
