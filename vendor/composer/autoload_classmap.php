@@ -2919,7 +2919,7 @@ return array(
     'Symfony\\Component\\Yaml\\Yaml' => $vendorDir . '/symfony/yaml/Yaml.php',
     'Symfony\\Polyfill\\Mbstring\\Mbstring' => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php',
     'Tests\\CreatesApplication' => $baseDir . '/tests/CreatesApplication.php',
-    'Tests\\Feature\\DistanciaTest' => $baseDir . '/tests/Feature/DistanciaTest.php',
+    'Tests\\Feature\\DistanciaTestBk' => $baseDir . '/tests/Feature/DistanciaTest.php',
     'Tests\\TestCase' => $baseDir . '/tests/TestCase.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
     'TijsVerkoyen\\CssToInlineStyles\\CssToInlineStyles' => $vendorDir . '/tijsverkoyen/css-to-inline-styles/src/CssToInlineStyles.php',
