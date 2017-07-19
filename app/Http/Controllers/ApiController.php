@@ -104,4 +104,11 @@ class ApiController extends Controller
  	    }
         return ["res"=>false,"msg"=>"El servicio no existe"];
 	}
+
+
+
+ 	function obtenerPoisPorRango($service, $x, $y, $km, Request $request) {
+ 		return                         ['poi'=>'Las cuartetas', 'latX'=>'-34.60375', 'latY'=>'-58.378575'];
+
+ 	}		
 }

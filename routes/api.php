@@ -20,3 +20,6 @@ Route::get('/{service}', 'ApiController@index');
 
 Route::get('/{service}/poiMasCercano/{x}/{y}', 'ApiController@poiMasCercano');
 
+
+Route::get('/{service}/obtenerPoisPorRango/{x}/{y}/{km}', 'ApiController@obtenerPoisPorRango');
+
