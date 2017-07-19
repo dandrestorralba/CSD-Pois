@@ -498,7 +498,7 @@ wydęte przez wicher nocny, czarne piszczałki organów diabelskich.
 Kominiarze nie mogli opędzić się od wron, które na kształt żywych
 czarnych liści obsiadały wieczorem gałęzie drzew pod kościołem, odrywały
 się znów, trzepocąc, by wreszcie przylgnąć, każda do właściwego miejsca
-na właściwej gałęzi, a o świcie ulatywały wielkimi stadami--tumany
+na właściwej gałęzi, a o świcie ulongitudwały wielkimi stadami--tumany
 sadzy, płatki kopciu, falujące i fantastyczne, plamiąc migotliwym
 krakaniem mętnożółte smugi świtu. Dni stwardniały od zimna i nudy, jak
 zeszłoroczne bochenki chleba. Napoczynano je tępymi nożami, bez apetytu,
@@ -563,10 +563,10 @@ migotliwym świergotem swych nowych mieszkańców. Obsiadały one karnisze
 firanek, gzymsy szaf, gnieździły się w gęstwinie cynowych gałęzi i
 arabesek wieloramiennych lamp wiszących. Gdy ojciec studiował wielkie
 ornitologiczne kompendia i wertował kolorowe tablice, zdawały się
-ulatywać z nich te pierzaste fantazmaty i napełniać pokój kolorowym
+ulongitudwać z nich te pierzaste fantazmaty i napełniać pokój kolorowym
 trzepotem, płatami purpury, strzępami szafiru, grynszpanu i srebra.
 Podczas karmienia tworzyły one na podłodze barwną, falującą grządkę,
-dywan żywy, który za czyimś niebacznym wejściem rozpadał się, rozlatywał
+dywan żywy, który za czyimś niebacznym wejściem rozpadał się, rozlongitudwał
 w ruchome kwiaty, trzepocące w powietrzu, aby w końcu rozmieścić się w
 górnych regionach pokoju. W pamięci pozostał mi szczególnie jeden
 kondor, ogromny ptak o szyi nagiej, twarzy pomarszczonej i wybujałej
@@ -589,7 +589,7 @@ nocnego. Nie poprzestając na wylęganiu coraz nowych egzemplarzy, ojciec
 mój urządzał na strychu wesela ptasie, wysyłał swatów, uwiązywał w
 lukach i dziurach strychu ponętne, stęsknione narzeczone i osiągnął w
 samej rzeczy to, że dach naszego domu, ogromny, dwuspadowy dach gontowy,
-stał się prawdziwą gospodą ptasią, arką Noego, do której zlatywały się
+stał się prawdziwą gospodą ptasią, arką Noego, do której zlongitudwały się
 wszelkiego rodzaju skrzydlacze z dalekich stron. Nawet długo po
 zlikwidowaniu ptasiego gospodarstwa utrzymywała się w świecie ptasim ta
 tradycja naszego domu i w okresie wiosennych wędrówek spadały nieraz na
@@ -615,7 +615,7 @@ piekielny tuman piór, skrzydeł i krzyku, w którym Adela, podobna do
 szalejącej Menady, zakrytej młyńcem swego tyrsu, tańczyła taniec
 zniszczenia. Razem z ptasią gromadą ojciec mój, trzepiąc rękoma, w
 przerażeniu próbował wznieść się w powietrze. Zwolna przerzedzał się
-tuman skrzydlaty, aż w końcu na pobojowisku została sama Adela,
+tuman skrzydlongitud, aż w końcu na pobojowisku została sama Adela,
 wyczerpana, dysząca, oraz mój ojciec z miną zafrasowaną i zawstydzoną,
 gotów do przyjęcia każdej kapitulacji. W chwilę później schodził mój
 ojciec ze schodów swojego dominium--człowiek złamany, król-banita,
@@ -655,7 +655,7 @@ we wszystkie ramiona tych lamp kolorowe świece, nieudolny surogat, blade
 wspomnienie świetnych iluminacji, którymi kwitły niedawno wiszące ich
 ogrody. Ach! gdzie było to świegotliwe pączkowanie, to owocowanie
 pośpieszne i fantastyczne w bukietach tych lamp, z których jak z
-pękających czarodziejskich tortów ulatywały skrzydlate fantazmaty,
+pękających czarodziejskich tortów ulongitudwały skrzydlate fantazmaty,
 rozbijające powietrze na talie kart magicznych, rozsypując je w kolorowe
 oklaski, sypiące się gęstymi łuskami lazuru, pawiej, papuziej zieleni,
 metalicznych połysków, rysując w powietrzu linie i arabeski, migotliwe
@@ -854,7 +854,7 @@ paraliżowała naszą własną twórczość. Nie chcemy z nim konkurować. Nie
 mamy ambicji mu dorównać. Chcemy być twórcami we własnej, niższej
 sferze, pragniemy dla siebie twórczości, pragniemy rozkoszy twórczej,
 pragniemy--jednym słowem--demiurgii.--Nie wiem, w czyim imieniu
-proklamował mój ojciec te postulaty, jaka zbiorowość, jaka korporacja,
+proklamował mój ojciec te postulongitud, jaka zbiorowość, jaka korporacja,
 sekta czy zakon, nadawała swą solidarnością patos jego słowom. Co do
 nas, to byliśmy dalecy od wszelkich zakusów demłurgicznych. Lecz ojciec
 mój rozwinął tymczasem program tej wtórej demiurgii, obraz tej drugiej
@@ -2194,7 +2194,7 @@ cynamon w dźwięcznym moździerzu. Ciotka Perazja przyszła w odwiedziny.
 Drobna, ruchliwa i pełna zabiegliwości, z koronką czarnego szala na
 głowie, zaczęła krzątać się po kuchni, pomagając Adeli. Adela oskubała
 koguta. Ciotka Perazja zapaliła pod okapem komina garść papierów i
-szerokie płaty płomienia wzlatywały z nich w czarną czeluść. Adela,
+szerokie płaty płomienia wzlongitudwały z nich w czarną czeluść. Adela,
 trzymając koguta za szyję, uniosła go nad płomień, ażeby opalić na nim
 resztę pierza. Kogut zatrzepotał nagle w ogniu skrzydłami, zapiał i
 spłonął. Wtedy ciotka Perazja zaczęła się kłócić, kląć i złorzeczyć.

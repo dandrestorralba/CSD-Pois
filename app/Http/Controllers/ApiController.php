@@ -19,15 +19,17 @@ class ApiController extends Controller
  		$this->services = collect([
  			'pizzerias'=>	['service'=> 'pizzerias',
                     'listPois'=>[
-                        ['poi'=>'Las cuartetas', 'latX'=>'-34.60375', 'latY'=>'-58.378575'],
- 				        ['poi'=>'El palacio de la pizza', 'latX'=>'-34.603325', 'latY'=>'-58.377335'],
- 				        ['poi'=>'El cuartito', 'latX'=>'-34.597837', 'latY'=>'-58.385456']
+                        ['poi'=>'Las cuartetas', 'latitud'=>'-34.60375', 'longitud'=>'-58.378575'],
+ 				        ['poi'=>'El palacio de la pizza', 'latitud'=>'-34.603325', 'longitud'=>'-58.377335'],
+ 				        ['poi'=>'El cuartito', 'latitud'=>'-34.597837', 'longitud'=>'-58.385456'],
+                        ['poi'=>'Los campeones', 'latitud'=>'-34.638080', 'longitud'=>'-58.374705']
+
                     ]],
  			'circuito-historico'=>	['service'=> 'circuito-historico',
                     'listPois'=>[
-                        ['poi'=>'El cabildo', 'latX'=>'-34.608739', 'latY'=>'-58.373786'],
- 				        ['poi'=>'San francisco', 'latX'=>'-34.610469', 'latY'=>'-58.371784'],
- 				        ['poi'=>'Catedral BS AS', 'latX'=>'-34.607569', 'latY'=>'-58.373257']
+                        ['poi'=>'El cabildo', 'latitud'=>'-34.608739', 'longitud'=>'-58.373786'],
+ 				        ['poi'=>'San francisco', 'latitud'=>'-34.610469', 'longitud'=>'-58.371784'],
+ 				        ['poi'=>'Catedral BS AS', 'latitud'=>'-34.607569', 'longitud'=>'-58.373257']
                         ]
 ]                    ,
             'cablevision' => ['service'=> 'cablevision',
@@ -74,10 +76,10 @@ class ApiController extends Controller
 
 
 
- 	function poiMasCercano($service, $latX, $latY, Request $request) {
+ 	function poiMasCercano($service, $latitud, $longitud, Request $request) {
 
 
-        if (!is_numeric($latX) or !is_numeric($latY) ){
+        if (!is_numeric($latitud) or !is_numeric($longitud) ){
             return ['res'=> false, 'msg'=>'Parametros invalidos'];
         }
         $result = $this->services->where('service',$service)->all();
@@ -90,7 +92,7 @@ class ApiController extends Controller
  		$poiMin = [];
  		foreach ($result[$service]['listPois'] as $poi) {
 
- 			$d = $this->distanceCalculation($latX, $latY, $poi['latX'], $poi['latY']);
+ 			$d = $this->distanceCalculation($latitud, $longitud, $poi['latitud'], $poi['longitud']);
  			
  			if ($d<=$min)	{
 

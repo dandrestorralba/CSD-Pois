@@ -26,7 +26,7 @@ class Address extends \Faker\Provider\Address
         'Iğdır','Isparta','İstanbul','İzmir',
         'Kahramanmaraş','Karabük','Karaman','Kars','Kastamonu','Kayseri','Kilis',
         'Kırıkkale','Kırklareli','Kırşehir','Kocaeli','Konya','Kütahya',
-        'Malatya','Manisa','Mardin','Mersin','Muğla','Muş',
+        'Malongituda','Manisa','Mardin','Mersin','Muğla','Muş',
         'Nevşehir','Niğde',
         'Ordu','Osmaniye',
         'Rize',
