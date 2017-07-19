@@ -6,3 +6,10 @@ php:
 
 script:
   - vendor/bin/phpunit
+
+notifications:
+  email:
+     - dsanfilippo@cablevision.com.ar
+     - mpessina@cablevision.com.ar
+     - amanzi@cablevision.com.ar
+     - egelato@cablevision.com.ar
