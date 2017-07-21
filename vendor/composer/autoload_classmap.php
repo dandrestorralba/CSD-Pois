@@ -2928,7 +2928,7 @@ return array(
     'Symfony\\Polyfill\\Mbstring\\Mbstring' => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php',
     'Tests\\CreatesApplication' => $baseDir . '/tests/CreatesApplication.php',
     'Tests\\Feature\\AbrirCerraduraConClaveIncorrectaTest' => $baseDir . '/tests/Feature/BuscarPoisA2KmParaPizzeria.php',
-    'Tests\\Feature\\BuscarPoisA2KmParaPizzeriaTest' => $baseDir . '/tests/Feature/BuscarPoisA2KmParaPizzeriaTest.php',
+    'Tests\\Feature\\BuscarPoisPorRadio' => $baseDir . '/tests/Feature/BuscarPoisA2KmParaPizzeriaTest.php',
     'Tests\\Feature\\Cerradura' => $baseDir . '/tests/Feature/BuscarPoisA2KmParaPizzeria.php',
     'Tests\\TestCase' => $baseDir . '/tests/TestCase.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
