@@ -41,6 +41,7 @@ class BuscarPorRadioPoisTest extends TestCase
         $this->assertTrue(strpos($result,'palacio')!=-1);
         $this->assertTrue(strpos($result,'cuartito')!=-1);
         $this->assertTrue(strpos($result,'cuarteta')!=-1);
+	$this->assertTrue(false);
     
     }
 
