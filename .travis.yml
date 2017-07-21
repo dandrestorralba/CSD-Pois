@@ -1,0 +1,17 @@
+language: php
+
+php:
+  - 5.6
+  - 7.0
+before_script:
+ - composer update
+
+script:
+  - vendor/bin/phpunit
+
+notifications:
+  email:
+     - dsanfilippo@cablevision.com.ar
+     - mpessina@cablevision.com.ar
+     - amanzi@cablevision.com.ar
+     - egelato@cablevision.com.ar
